@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  :root {
+    --color-background-primary: #FFFFFF;
+    --color-backgorund-primary-dark: #000000;
+    --color-background-primary-shade: #F4F4F4;
+    --color-button-accent: #EBEBEB;
+    --color-button-hover: #DFDFDF;
+    --color-text-primary: #1A1A1A;
+  }
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-background-primary-shade);
+}
